@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+.material-symbols-outlined{
+    display: none;
+
+}
+nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px 30px;
+    color:  hsl(0, 0%, 100%);
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+nav button {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+     font-family: "Fraunces", serif;
+     font-weight: 700;
+    
+}
+nav button:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+.Hero-section{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     justify-content: space-evenly;
+    height: 70vh;
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+     color: hsl(0, 0%, 100%); 
+     font-weight: 800;
+}
+
+/* comment for styling colum divide */
+
+.two-colum {
+    display: flex;
+    width: 100%;
+    justify-items: center;
+}
+
+.image-box {
+    background-image: url(./images/desktop/image-transform.jpg);
+     background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50%;
+}
+.text-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+}
+.text-box h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+}
+.text-box p {
+    line-height: 1.5;
+    color: hsl(167, 40%, 24%);
+    text-align: justify;
+    width: 420px;
+}
+.text-box a {
+    margin-top: 20px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+.text-box a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+      text-decoration-color:hsl(51, 100%, 49%);
+}
+.image-box2 {
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50%;
+}
+.text-box2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+
+}
+
+.text-box2 h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+}
+.text-box2 p {
+    line-height: 1.7;
+    color: hsl(167, 40%, 24%);
+    text-align: justify;
+    width: 400px;
+}
+.text-box2 a {
+    margin-top: 20px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+.text-box2 a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: hsl(7, 99%, 70%);
+  
+}
+
+
+/* this is another section on my styling */
+.two-colum2 {
+    display: flex;
+    width: 100%;
+    justify-items: center;
+}
+.text-box2
+.image-box2 {
+    width: 50%;
+}
+
+
+.services{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+}
+.service1{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 50%;
+}
+
+.Graphic-design h3 {
+    color: hsl(167, 40%, 24%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.Graphic-design p {
+    color: hsl(167, 40%, 24%);
+    width: 300px;
+    
+}
+
+.Graphic-design {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    padding: 40px;
+    height: 80vh;
+  
+}
+.service2{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 50%; 
+}
+.Graphic-design2 h3 {
+    color: hsl(198, 62%, 26%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.Graphic-design2 p {
+    color: hsl(198, 62%, 26%);
+    width: 300px;
+}
+.Graphic-design2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    padding: 40px;
+    height: 80vh;
+}
+
+/* styling the testmoning part comment */
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 80vh;
+    justify-content: center;
+    justify-content: baseline;
+
+}
+.client h1 {
+    color: hsl(167, 40%, 24%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+ .testmonials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    color: hsl(167, 40%, 24%);
+
+ }
+ .testmonial-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    line-height: 20px;
+ }
+ .testmonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+ }
+ .direct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+ }
+ .text-colum p{
+    width: 300px;
+    text-align: center;
+ }
+ .text-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .testmonials-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: center;
+    text-align: justify;
+ }
+ .testmonials-card h4 {
+    margin: 5px 0 5px;
+ }
+ .text-colum span {
+    font-size: 13px;
+ }
+
+/* comment of products of gallery styling part */
+.gallery{
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    object-fit: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.gallery1 {
+    display: none;
+}
+
+.gallery img{
+    width: 25%;
+}
+
+/* comment for footer styling part */
+footer{
+    text-align: center;
+    height: 50vh;
+    color: hsl(211, 20%, 43%);
+    background-color: hsl(168, 65%, 78%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.footer-logo{
+    justify-content: center;
+    color: hsl(212, 27%, 19%);
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+    font-size: 16px;
+    list-style: none;
+    cursor: pointer;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.media:hover a{
+    color: white;
+}
