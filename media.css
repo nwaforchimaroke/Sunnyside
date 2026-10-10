@@ -15,19 +15,25 @@ nav{
     height: 100vh;
     background-position: center;
 }
-.hero1{
-    font-size: 25px;
-}
+
 .hero-content {
+    width: 100%;
+    gap: 5rem;
+    font-size: 10px;
+    
+}
+/* .hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    gap: 5rem;
-    
-}
+     justify-content: center;
+     justify-content: space-evenly;
+    height: 70vh;
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+     color: hsl(0, 0%, 100%); 
+     font-weight: 800;
+} */
 .two-colum{
     display: flex;
     flex-direction: column-reverse;
@@ -45,18 +51,20 @@ nav{
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    height: 50vh;
+    /* height: 50vh; */
     justify-items: center;
     text-align: center;
+    padding: 20px 40px;
     
     
 } 
-.text-box p {
+.text-box p {  
     color: hsl(167, 40%, 24%);
     text-align: center;
     justify-content: center;
     font-size: 15px;
-    padding: 0px 50px; 
+    /* padding: 10px 50px;  */
+    width: 100%;
 }
 
 .text-box a {
@@ -97,9 +105,10 @@ nav{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 50vh;
+    /* height: 50vh; */
     justify-items: center;
     align-items: center;
+    padding: 20px 40px;
 }
 .text-content{
     display: flex;
@@ -121,7 +130,8 @@ nav{
     text-align: center;
     justify-content: center;
     font-size: 15px;
-    padding: 0px 50px; 
+    /* padding: 10px 50px;  */
+    width: 100%;
 }
 .text-box2 a {
     color: #222;
@@ -164,6 +174,7 @@ nav{
 
 .Graphic-design p {
     color: hsl(167, 40%, 24%);
+    width: 100%;
 }
 .Graphic-text{
     display: flex;
@@ -190,7 +201,19 @@ nav{
 }
 .Graphic-design2 p {
     color: hsl(198, 62%, 26%);
+    width: 100%;
 }
+.Graphic-design2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    padding: 20px;
+    height: 80vh;
+}
+
 .direct h4 {
     font-size: 20px;
     font-family: "Fraunces", serif;
@@ -203,8 +226,8 @@ nav{
     color: hsl(198, 62%, 26%);
 }
 .client h1{
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: bold;
 }
 .client{
     display: flex;
@@ -214,6 +237,9 @@ nav{
     text-align: center;
     height: 100%;
     padding: 60px 30px;
+}
+.text-colum p{
+    width: 100%;
 }
 
 .testmonials{
