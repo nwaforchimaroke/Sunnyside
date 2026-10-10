@@ -15,6 +15,9 @@ nav{
     height: 100vh;
     background-position: center;
 }
+.hero1{
+    font-size: 25px;
+}
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -53,7 +56,7 @@ nav{
     text-align: center;
     justify-content: center;
     font-size: 15px;
-    padding: 0px 20px; 
+    padding: 0px 50px; 
 }
 
 .text-box a {
@@ -118,7 +121,7 @@ nav{
     text-align: center;
     justify-content: center;
     font-size: 15px;
-    padding: 0px 20px; 
+    padding: 0px 50px; 
 }
 .text-box2 a {
     color: #222;
@@ -152,9 +155,9 @@ nav{
 }
 .Graphic-design h3 {
     color: hsl(167, 40%, 24%);
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Fraunces", serif;
-    font-weight: 800;
+    font-weight: 600;
     padding: 20px;
     text-align: center;
 }
@@ -179,9 +182,9 @@ nav{
 }
 .Graphic-design2 h3 {
     color: hsl(198, 62%, 26%);
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Fraunces", serif;
-    font-weight: 800;
+    font-weight: 600;
     padding: 20px;
     text-align: center;
 }
@@ -189,9 +192,9 @@ nav{
     color: hsl(198, 62%, 26%);
 }
 .direct h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Fraunces", serif;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
     font-weight: bold;
 }
@@ -199,7 +202,10 @@ nav{
     font-size: 18px;
     color: hsl(198, 62%, 26%);
 }
-
+.client h1{
+    font-size: 30px;
+    font-weight: 300;
+}
 .client{
     display: flex;
     flex-direction: column;
