@@ -1,11 +1,35 @@
 @media screen and (max-width: 1000px) {
-  nav ul{
+  .nav{
     display: none;
 }
 .material-symbols-outlined{
     display: block;
-
 }
+ .meun-button {
+        display: block;
+    }
+ .nav.show{
+        display: flex;
+    }
+    #menuButton{
+        display: block;
+    }
+    .li-button{
+        background-color: yellow;
+    }
+    .nav{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        top: 70px;
+        color: black;
+        background-color: aliceblue;
+        position: absolute;
+
+    }
 
 nav{
     padding: 40px;
@@ -27,7 +51,7 @@ nav{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    padding-top: 45px;
+    /* padding-top: 45px; */
 }
 .text-box h2 {
     font-size: 30px;
@@ -98,7 +122,6 @@ nav{
     justify-items: center;
     align-items: center;
     padding: 40px 40px;
-    stroke-linejoin: round;
 }
 .text-content{
     display: flex;

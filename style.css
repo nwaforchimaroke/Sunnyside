@@ -11,6 +11,18 @@ body{
     display: none;
 
 }
+li:hover{
+       color: #2563eb; 
+}
+.menu-button{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+
+
 nav {
     display: flex;
     text-align: center;
@@ -137,7 +149,6 @@ nav button:hover {
     justify-content: center;
     text-align: start;
     align-items: center;
-    /* break-inside:avoid-column; */
 }
 .break{
     display: block;
