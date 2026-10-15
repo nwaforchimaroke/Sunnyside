@@ -57,7 +57,7 @@ nav button:hover {
     background-color: hsl(0, 0%, 100%);
 }
 .Hero-section{
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url(./images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
     background-size: cover;

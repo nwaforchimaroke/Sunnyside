@@ -17,25 +17,32 @@
     .li-button{
         background-color: yellow;
     }
-    .nav{
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        text-align: center;
-        padding: 1rem;
-        width: 100%;
-        top: 70px;
-        color: black;
-        background-color: aliceblue;
-        position: absolute;
 
-    }
+    .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    right: 40px;
+    width: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.nav.show {
+    display: flex;
+}
 
 nav{
     padding: 40px;
 }
 .Hero-section{
-    background-image: url(/images/mobile/image-header.jpg);
+    background-image: url(./images/mobile/image-header.jpg);
     height: 100vh;
     background-position: center;
 }
